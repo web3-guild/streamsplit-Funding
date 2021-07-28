@@ -2,6 +2,7 @@
 pragma solidity 0.8.4;
 
 import {SplitStorage} from "./SplitStorage.sol";
+import "@openzeppelin/contracts/finance/PaymentSplitter.sol"";
 
 interface IERC20 {
     function balanceOf(address account) external view returns (uint256);
@@ -15,6 +16,16 @@ interface IWETH {
     function deposit() external payable;
 
     function transfer(address to, uint256 value) external returns (bool);
+}
+
+
+// allowing users to  swap  their choice of erc20 to ethere to pay the gas fees /  filling the splitter contract.
+interface Uniswapv3 {
+
+    function pay(type name) {
+        
+    }
+    
 }
 
 /**
@@ -38,6 +49,9 @@ contract Splitter is SplitStorage {
 
     // Emits when a window is incremented.
     event WindowIncremented(uint256 currentWindow, uint256 fundsAvailable);
+
+
+    function addPayee(uint)
 
     function claimForAllWindows(
         address account,
