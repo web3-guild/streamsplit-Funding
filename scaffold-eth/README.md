@@ -6,8 +6,7 @@
 
 
 This application  allows the authors to search for the papers , Patents or the discussion forums and then  delegated the prize funding based on the formula ( % contribution , Quadratic lands etc).
-this project is influenced  by brilliant article of [Matt stepherson](https://s.mirror.xyz/) regarding new ways of funding the grant providers for the researchers . 
-
+this project is influenced  by brilliant article of [Matt stephenson](https://s.mirror.xyz/) regarding new ways of funding the grant providers for the researchers . 
 this application allows two parties (owner as well as )
 
 
