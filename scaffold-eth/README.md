@@ -7,7 +7,9 @@
 
 This application  allows the authors to search for the papers , Patents or the discussion forums and then  delegated the prize funding based on the formula ( % contribution , Quadratic lands etc).
 this project is influenced  by brilliant article of [Matt stephenson](https://s.mirror.xyz/) regarding new ways of funding the grant providers for the researchers . 
-this application allows two parties (owner as well as )
+this application allows :
+
+scientist to mint their papers as NFT's and define the associated research ( generally scientists or the group )  whom there has been accreditation , and they can mint their 
 
 
 # 🏄‍♂️ Quick Start
